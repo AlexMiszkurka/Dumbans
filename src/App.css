@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +26,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.react-tabs__tab-list {
+  background-color: #4f92b1;
+}
+
+.react-tabs__tab {
+  background-color: aquamarine;
 }
 
 @keyframes App-logo-spin {
