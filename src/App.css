@@ -36,6 +36,11 @@
   background-color: aquamarine;
 }
 
+header {
+  width:100%;
+  background-image:url("/public/One-of-a-kind.png");
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
