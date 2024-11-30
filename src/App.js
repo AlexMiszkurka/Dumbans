@@ -26,7 +26,25 @@ function App() {
         <TabPanel>
           <h2>Chat Box</h2>
           <body>
-            Chat box will be here
+            <form>
+              <div>
+              <label for="ET1">Enter text:</label>
+              <input type="text" id="ET1" text="ET1" placeholder="TEXT"></input>
+              </div>
+              <input type="submit"></input>
+
+              <br>
+              </br>
+              <br>
+              </br>
+
+
+              <div>
+              <label for="EC1">Enter text:</label>
+              <input type="text" id="EC1" text="EC1" placeholder="COMMENT"></input>
+              </div>
+              <input type="submit"></input>
+            </form>
           </body>
         </TabPanel>
         <TabPanel>
@@ -34,13 +52,13 @@ function App() {
           <body>
           <Tabs>
               <TabList>
-                <Tab>Viruses</Tab>
+                <Tab>Programs</Tab>
                 <Tab>Artwork</Tab>
                 <Tab>Server Stuff</Tab>
               </TabList>
               <TabPanel>
                 <body>
-                  Viruses coming soon
+                Programs coming soon
                 </body>
               </TabPanel>
               <TabPanel>
