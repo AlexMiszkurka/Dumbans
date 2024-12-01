@@ -3,6 +3,10 @@ import './App.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
+console.log("loading.. website");
+
+window.alert("welcome to dumbans");
+
 
 function App() {
   return (
@@ -16,9 +20,10 @@ function App() {
           <Tab>Videos</Tab>
           <Tab>Chat</Tab>
           <Tab>Downloads</Tab>
+          <Tab>Store</Tab>
         </TabList>
         <TabPanel>
-          <h2>Leon's Videos</h2>
+          <h2>Videos</h2>
           <body>
             Video list TBD
           </body>
@@ -75,6 +80,7 @@ function App() {
           </body>
         </TabPanel>
       </Tabs>
+     <script src="pop-ups.js"></script>
     </div>
   );
 }
