@@ -23,7 +23,6 @@ function App() {
           <Tab>Random stuff</Tab>
           <Tab>Downloads</Tab>
           <Tab>Store</Tab>
-          <Tab>Account</Tab>
         </TabList>
         <TabPanel>
           <h2>Videos</h2>
@@ -71,26 +70,6 @@ function App() {
           <h2>Store</h2>
           <body>
             Store items TBD
-          </body>
-        </TabPanel>
-        <TabPanel>
-          <h2>Account</h2>
-          <body>
-            <form>
-              <div>
-                <label htmlFor="username">Username:</label>
-                <input type="text" id="username" placeholder="Username" />
-              </div>
-              <div>
-                <label htmlFor="email">Email:</label>
-                <input type="email" id="email" placeholder="Email" />
-              </div>
-              <div>
-                <label htmlFor="password">Password:</label>
-                <input type="password" id="password" placeholder="Password" />
-              </div>
-              <input type="submit" value="Sign Up" />
-            </form>
           </body>
         </TabPanel>
       </Tabs>
