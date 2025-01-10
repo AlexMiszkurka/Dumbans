@@ -5,6 +5,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import qrCode1 from './Images/QR-Dumbans@DBC.png'; // Updated name for first QR code
 import qrCode2 from './Images/LM-Gmail.png'; // Name for second QR code
+import qrCode3 from './Images/DBS.png'; // Name for second QR code
 
 console.log("loading... website");
 
@@ -37,6 +38,7 @@ function App() {
             {/* Display both QR codes with larger sizes */}
             <img src={qrCode1} alt="QR Code 1" style={{ width: '200px', height: '200px', border: '1px solid red' }} />
             <img src={qrCode2} alt="QR Code 2" style={{ width: '200px', height: '200px', border: '1px solid blue' }} />
+            <img src={qrCode3} alt="QR Code 2" style={{ width: '200px', height: '200px', border: '1px solid blue' }} />
           </body>
         </TabPanel>
         <TabPanel>
