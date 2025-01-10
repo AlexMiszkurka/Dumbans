@@ -1,8 +1,10 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import qrCode from './Images/LM-Gmail.png'; // Corrected the path
+import qrCode1 from './Images/LM-Gmail.png'; // Import first QR code
+import qrCode2 from './Images/QR-Dumbans@DBC.png'; // Import second QR code
 
 console.log("loading... website");
 
@@ -33,7 +35,9 @@ function App() {
           <h2>Random stuff</h2>
             Random stuff TBD
           <body>
-          <img src={qrCode} alt="QR Code Email" style={{ width: '100px', height: '100px', border: '1px solid red' }} />
+            {/* Display both QR codes */}
+            <img src={qrCode1} alt="QR Code 1" style={{ width: '100px', height: '100px', border: '1px solid red' }} />
+            <img src={qrCode2} alt="QR Code 2" style={{ width: '100px', height: '100px', border: '1px solid blue' }} />
           </body>
         </TabPanel>
         <TabPanel>
