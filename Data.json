@@ -1,0 +1,15 @@
+{
+    "name": "dumbans",
+    "version": "1.0.0",
+    "private": true,
+    "MSD": {
+
+    },
+    "MAIN": {
+        "MainSystems": {
+            "DBP": [
+                "SI"
+            ]
+        } 
+    } 
+  }
